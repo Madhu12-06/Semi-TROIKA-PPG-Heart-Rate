@@ -1,0 +1,16 @@
+# Project Requirements for Semi-TROIKA PPG Heart Rate Estimation
+
+## Software
+* MATLAB (Tested on R2022a or newer)
+
+## Required MATLAB Toolboxes
+To run `SemiTROIKA.m`, the following toolboxes must be installed:
+1. Signal Processing Toolbox (Required for `designfilt`, `filtfilt`, `czt`, `findpeaks`, `medfilt1`)
+2. DSP System Toolbox (Required for `dsp.LMSFilter` if using the NLMS variant)
+
+## Python Equivalent (If porting)
+If this project is ported to Python, the following libraries are required:
+* numpy
+* scipy (for signal filtering, CZT, and peak finding)
+* matplotlib (for generating plots)
+* pandas (for reading the CSV dataset)
