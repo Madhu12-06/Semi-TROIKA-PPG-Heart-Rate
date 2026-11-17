@@ -18,7 +18,18 @@ Tested on a 300-window subset of the IEEE SP Cup 2015 dataset:
 * `IEEEPPG_TRAIN.csv` : The dataset used for evaluation.
 * `Plots/` : Contains the evaluation graphs (Tracking, Scatter, CZT Spectrum, Denoising, and Error Histogram).
 
+# Dataset Information
+
+Due to GitHub file size limits, the raw dataset (`IEEEPPG_TRAIN.csv`) is not included in this repository.
+
+## How to get the data:
+1. The dataset used is the **IEEE Signal Processing Cup 2015** dataset (TROIKA).
+2. It can be downloaded from [Zenodo (Record 3902710)](https://zenodo.org/record/3902710) 
+3. Download the `IEEEPPG_TRAIN.csv` file.
+4. Place the `.csv` file in the same folder as `SemiTROIKA.m` before running the script.
+
 ## How to Run
-1. Open MATLAB.
-2. Place `IEEEPPG_TRAIN.csv` and `SemiTROIKA.m` in the same folder.
-3. Run `SemiTROIKA.m`. The script will output the MAE/RMSE to the command window and generate 5 evaluation plots.
+1. Download the `IEEEPPG_TRAIN.csv` dataset (see `DATASET.md` for instructions).
+2. Open MATLAB.
+3. Place `IEEEPPG_TRAIN.csv` and `SemiTROIKA.m` in the same folder.
+4. Run `SemiTROIKA.m`. The script will output the MAE/RMSE to the command window and generate 5 evaluation plots.
